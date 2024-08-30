@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Streamit</title>
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="images/favicon.ico"/>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css"/>
+   <!-- Typography CSS -->
+   <link rel="stylesheet" href="css/typography.css">
+   <!-- Style -->
+   <link rel="stylesheet" href="css/style.css"/>
+   <!-- Responsive -->
+   <link rel="stylesheet" href="css/responsive.css"/>
+</head>
+<body>
+<div id="loading">
+   <div id="loading-center">
+   </div>
+</div>
+
+<!-- MainContent -->
+<section class="sign-in-page">
+   <div class="container">
+      <div class="row justify-content-center align-items-center height-self-center">
+         <div class="col-lg-5 col-md-12 align-self-center">
+            <div class="sign-user_card ">                    
+               <div class="sign-in-page-data">
+                  <div class="sign-in-from w-100 m-auto">
+                     <h3 class="mb-3 text-center">Sign Up</h3>
+                     <form class="mt-4" action="signupvalidation.php" method="POST">
+                        <div class="form-group">
+                           <label>User ID</label>                                  
+                           <input type="text" class="form-control mb-0" id="exampleInputEmail2" name="Userid" placeholder="User ID" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                           <label>Full Name</label>                                  
+                           <input type="text" class="form-control mb-0" id="exampleInputEmail2" name="name1" placeholder="Enter Full Name" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                           <label>Email Address</label>                                  
+                           <input type="email" class="form-control mb-0" id="exampleInputEmail3" name="Login" placeholder="Enter email" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                           <label>Password</label>                                  
+                           <input type="password" class="form-control mb-0" id="exampleInputPassword2" name="password" placeholder="Password" required>
+                        </div>   
+                        <div class="custom-control custom-checkbox mb-3">
+                           <input type="checkbox" class="custom-control-input" id="customCheck" required>
+                           <label class="custom-control-label" for="customCheck">I accept <a href="terms-conditions.html" class="text-primary"> Terms and Conditions</a></label>
+                        </div>                      
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-hover" value="Sign IN">Sign Up</a></button>        
+                     </form>
+                  </div>
+               </div>    
+               <div class="mt-3">
+                  <div class="d-flex justify-content-center links">
+                     Already have an account? <a href="login.php" class="text-primary ml-2">Sign In</a>
+                  </div>                        
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- MainContent End-->
+<!-- jQuery, Popper JS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Slick JS -->
+<script src="js/slick.min.js"></script>
+<!-- owl carousel Js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- select2 Js -->
+<script src="js/select2.min.js"></script>
+<!-- Magnific Popup-->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<!-- Slick Animation-->
+<script src="js/slick-animation.min.js"></script>
+<!-- Custom JS-->
+<script src="js/custom.js"></script>
+</body>
+
+</html>
